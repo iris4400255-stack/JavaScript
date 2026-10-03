@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Play";
+  src: url("../fonts/play-v21-cyrillic_latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Play";
+  src: url("../fonts/play-v21-cyrillic_latin-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-v51-cyrillic_latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-title,
+.section-title {
+  font-family: "Play", sans-serif;
+}
+
+:root {
+  --color-primary: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-light: #ffffff;
+  --color-dark: #4a4a4a;
+  --color-gray: #747272;
+  --color-background: #ffffff;
+  --color-section: #ffffff;
+  --color-button: #2b7fff;
+  --color-button-hover: #011c44;
+  --color-footer: #011c44;
+  --color-accent: #ffd02b;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-dark);
+}
+
+.logo {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary);
+}
+
+.main-title {
+  color: var(--color-primary-dark);
+}
+
+.hero-text {
+  color: var(--color-dark);
+}
+
+.section-title {
+  color: var(--color-primary-dark);
+}
+
+.section-text {
+  color: var(--color-dark);
+}
+
+.button {
+  background-color: var(--color-button);
+  color: var(--color-light);
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-family: inherit;
+}
+
+.button:hover {
+  background-color: var(--color-button-hover);
+}
+
+.footer {
+  background-color: var(--color-footer);
+  color: var(--color-light);
+}
+.span {
+  color: var(--color-primary);
+}
